@@ -7,11 +7,9 @@ j1mx6::j1mx6(QWidget *parent) :
     ui(new Ui::j1mx6)
 {
 
-//    this->setWindowFlags(this->windowFlags()|Qt::MSWindowsFixedSizeDialogHint);
+
     ui->setupUi(this);
-//    this->setWindowFlags(Qt::FramelessWindowHint);
-//    this->setWindowState(Qt::WindowMaximized);
-//    this->setWindowFlags(Qt::WindowStaysOnTopHint);
+
     ui->pushButton->setStyleSheet("border-image:url(:/new/prefix1/J1MX6-2.jpg);");
 }
 
