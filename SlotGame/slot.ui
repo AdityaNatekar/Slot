@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>slot</class>
+ <widget class="QMainWindow" name="slot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>slot</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="ceCell1">
+    <property name="geometry">
+     <rect>
+      <x>122</x>
+      <y>24</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Light</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Numata JewelOne J1-MX6</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel1">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>93</y>
+      <width>618</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0, 0%)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel2">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>96</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>96</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel4">
+    <property name="geometry">
+     <rect>
+      <x>466</x>
+      <y>96</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel5">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>302</y>
+      <width>200</width>
+      <height>102</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel6">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>302</y>
+      <width>200</width>
+      <height>102</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cePanel7">
+    <property name="geometry">
+     <rect>
+      <x>466</x>
+      <y>302</y>
+      <width>200</width>
+      <height>102</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStop1">
+    <property name="geometry">
+     <rect>
+      <x>74</x>
+      <y>321</y>
+      <width>160</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>ＭＳ Ｐゴシック</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.463324, y1:0.432, x2:0.473, y2:0, stop:0 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 24pt &quot;ＭＳ Ｐゴシック&quot;;
+color : maroon;
+</string>
+    </property>
+    <property name="text">
+     <string>STOP!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStop2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>321</y>
+      <width>160</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>ＭＳ Ｐゴシック</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.463324, y1:0.432, x2:0.473, y2:0, stop:0 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 24pt &quot;ＭＳ Ｐゴシック&quot;;
+color : maroon
+</string>
+    </property>
+    <property name="text">
+     <string>STOP!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStop3">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>321</y>
+      <width>160</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>ＭＳ Ｐゴシック</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.463324, y1:0.432, x2:0.473, y2:0, stop:0 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 24pt &quot;ＭＳ Ｐゴシック&quot; ;
+color : blue;
+</string>
+    </property>
+    <property name="text">
+     <string>STOP!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnReset">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>416</y>
+      <width>160</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>ＭＳ Ｐゴシック</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.493, y1:0.517, x2:0.492971, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 24pt &quot;ＭＳ Ｐゴシック&quot;;
+color:red ;</string>
+    </property>
+    <property name="text">
+     <string>RESET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>329</x>
+      <y>416</y>
+      <width>63</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStart">
+    <property name="geometry">
+     <rect>
+      <x>434</x>
+      <y>416</y>
+      <width>160</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>ＭＳ Ｐゴシック</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.463324, y1:0.432, x2:0.473, y2:0, stop:0 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 255, 255));
+
+font: 24pt &quot;ＭＳ Ｐゴシック&quot;;</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ceImageButton1">
+    <property name="geometry">
+     <rect>
+      <x>672</x>
+      <y>244</y>
+      <width>82</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DejaVu Serif</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>675</x>
+      <y>430</y>
+      <width>82</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DejaVu Serif</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+border-color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>330</y>
+      <width>72</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="currentText">
+     <string>25</string>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>250</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="PnlKuji1">
+    <property name="geometry">
+     <rect>
+      <x>74</x>
+      <y>116</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PnlKuji2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>116</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PnlKuji3">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>116</y>
+      <width>160</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltest">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>530</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltest2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>570</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltest3">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>600</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

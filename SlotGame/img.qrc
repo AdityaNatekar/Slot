@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>J1MX6-2.jpg</file>
+        <file>kuji0.png</file>
+        <file>kuji1.png</file>
+        <file>kuji2.png</file>
+        <file>kuji3.png</file>
+        <file>button1.png</file>
+        <file>star-new.png</file>
+        <file>star-light-shade.png</file>
+    </qresource>
+</RCC>
